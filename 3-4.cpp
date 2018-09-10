@@ -12,13 +12,13 @@ int main()
 {
 	string str;
 	//cin >>     cout<<
-	ofstream rec("D:\\cxvfzd\\keks.txt");
+	ofstream rec("//Users//tigran//prj//1gradeHW//test.txt");
 	cin >> str;
 	rec << str;
 	rec.close();
-	char lul[50];
-	ifstream read("D:\\cxvfzd\\keks.txt");
-	read.getline(lul, 50);
+	char file[50];
+	ifstream read("//Users//tigran//prj//1gradeHW//test.txt");
+	read.getline(file, 50);
 	read.close();
-	cout << lul << endl;
+	cout << file << endl;
 }
