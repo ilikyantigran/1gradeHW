@@ -18,6 +18,7 @@ cin >> x;
 int res = x;
 for (int i = x; i >1 ; i--)
   {
+
     ez = true;
     for (j = 2; j < i; j++)
     {
@@ -29,10 +30,9 @@ for (int i = x; i >1 ; i--)
     }
     if (ez == true)
     {
-      res = i;
-      break;
+      cout << i << endl;
     }
   }
-cout << res << endl;
+//cout << res << endl;
 return 0;
 }
