@@ -1,7 +1,9 @@
 #include <iostream>
 #include <cstdlib>
 #include <math.h>
+
 #define _USE_MATH_DEFINES
+
 using namespace std;
 
 int main()
