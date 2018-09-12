@@ -2,6 +2,7 @@
 #include <cstdlib>
 #include <string>
 #include <cmath>
+#include <stdlib.h>
 #include <list>
 #include <fstream>
 #include <cstring>
@@ -19,30 +20,17 @@ using namespace std;
 
 int main()
 {
-  list <double> Hight;
+  int i =1;
+  string str;
   double n;
   double average = 0;
+  string list = "";
+  do {
+    cin >> str;
+    average+=atoi(str.c_str());
+    n++;
+  } while(str!="0");
 
-  for(int i =0; ;i++)//считывание
-  {
-    cin >> n;
-    if (n!=0)
-      Hight.push_back(n);
-    else break;
-  }
-
-  for (int j =0; j < Hight.size(); j++)//вывод
-  {
-    auto it = next(Hight.begin(),j);
-    cout << *it << endl;;
-  }
-
-  for (int z =0; z < Hight.size(); z++)//поиск среднего
-  {
-    auto it2 = next(Hight.begin(),z);
-    average+= (double)it2;
-  }
-  average/=Hight.size();
-  cout << average << endl;
+  cout << average/(n-1)<< endl;
   return 0;
 }
