@@ -1,12 +1,6 @@
 //Дано целое число n (вводится с клавиатуры). Определить, входит ли цифра 3 в запись числа n2
 #include <iostream>
 #include <cstdlib>
-#include <string>
-#include <cmath>
-#include <fstream>
-#include <cstring>
-
-#define _USE_MATH_DEFINES
 
 using namespace std;
 

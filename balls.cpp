@@ -1,15 +1,9 @@
 #include <iostream>
 #include <cstdlib>
-#include <string>
-#include <cmath>
-#include <fstream>
-#include <cstring>
-
-#define _USE_MATH_DEFINES
 
 using namespace std;
 
-long double fact(int N)
+long double fact(int N) //Функция нахождения факториала
 {
     if(N < 0)
         return 0;

@@ -1,9 +1,6 @@
 #include <iostream>
 #include <cstdlib>
 #include <string>
-#include <cmath>
-
-#define _USE_MATH_DEFINES
 
 using namespace std;
 

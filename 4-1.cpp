@@ -1,10 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <string>
-#include <cmath>
 #include <fstream>
-
-#define _USE_MATH_DEFINES
 
 using namespace std;
 
@@ -14,7 +11,6 @@ int main()
 	char a;
 	int i;
 	int S = 0;
-	//cin >>     cout<<
 	ofstream rec("C:\\Users\\tigra\\Desktop\\c++\\keks.txt");
 	for (i = 0; i < 10; i++)
 	{

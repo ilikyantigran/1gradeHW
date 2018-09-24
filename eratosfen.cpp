@@ -1,11 +1,5 @@
 #include <iostream>
 #include <cstdlib>
-#include <string>
-#include <cmath>
-#include <fstream>
-#include <cstring>
-
-#define _USE_MATH_DEFINES
 
 using namespace std;
 
@@ -33,6 +27,5 @@ for (int i = x; i >1 ; i--)
       cout << i << endl;
     }
   }
-//cout << res << endl;
 return 0;
 }

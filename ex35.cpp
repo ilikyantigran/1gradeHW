@@ -1,12 +1,6 @@
 //35)Дана строка S из n символов. Подсчитать максимальное число подряд идущих пробелов.
 #include <iostream>
 #include <cstdlib>
-#include <string>
-#include <cmath>
-#include <fstream>
-#include <cstring>
-
-#define _USE_MATH_DEFINES
 
 using namespace std;
 

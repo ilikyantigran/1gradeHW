@@ -2,11 +2,9 @@
 #include <cstdlib>
 #include <string>
 #include <string.h>
-#include <cmath>
 #include <fstream>
 
 #define _CRT_SECURE_NO_WARNINGS
-#define _USE_MATH_DEFINES
 
 using namespace std;
 
@@ -15,7 +13,6 @@ int main()
 	char str1[] = "qwertyuioplkjhgfdsazxcvbnmlkjh";
 	cout << str1 << endl;
 	int i, j;
-	//char str2[30];
 	char a;
 	bool flag;
 	for (i = 0; i < 30; i++)

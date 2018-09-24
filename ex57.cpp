@@ -6,11 +6,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <string>
-#include <cmath>
-#include <fstream>
 #include <cstring>
-
-#define _USE_MATH_DEFINES
 
 using namespace std;
 
@@ -20,6 +16,7 @@ int main()
   cout << "Введите количество книг" << endl;
   cin >> count;
   string array[3][count];
+
   for(int i = 0; i< count; i++)
   {
     cout << "Введите автора" << endl;
@@ -29,11 +26,13 @@ int main()
     cout << "Введите год издания" <<endl;
     cin>> array[2][i];
   }
+
   for (int j = 0; j<count;j++)
   {
     cout<<array[0][j]<< "|"<<array[1][j]<< "|"<<array[2][j]<<endl;
   }
   cout<< endl;
+
   for (int z = 0; z <count; z++)
   {
     if(array[1][z] == "Паскаль")

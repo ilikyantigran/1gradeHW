@@ -2,15 +2,10 @@
 //т. (указание: использовать полный перебор)
 #include <iostream>
 #include <cstdlib>
-#include <string>
-#include <cmath>
-#include <fstream>
-#include <cstring>
-
-#define _USE_MATH_DEFINES
 
 using namespace std;
-int sum(int x)
+
+int sum(int x) //Функция для нахождения суммы цифр
 {
   return (x%10+(x/10)%10+(x/100)%10);
 }

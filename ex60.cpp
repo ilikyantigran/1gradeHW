@@ -1,9 +1,6 @@
 #include <iostream>
 #include <cstdlib>
-#include <string>
 #include <cmath>
-#include <fstream>
-#include <cstring>
 
 #define _USE_MATH_DEFINES
 
@@ -12,7 +9,7 @@ using namespace std;
 int sum = 1;
 int a;
 
-int funx (int n)
+int funx (int n) //Функция для х
 {
   sum = 1;
   for(int i = 0; i< n; i++)
@@ -22,7 +19,8 @@ int funx (int n)
   }
   return sum;
 }
-int funy (int n)
+
+int funy (int n) //Функция для y
 {
   sum = 1;
   for(int i = n; i< 2*n; i++)
@@ -32,7 +30,8 @@ int funy (int n)
   }
   return sum;
 }
-int funz (int n)
+
+int funz (int n) //Функция для z
 {
   sum = 1;
   for(int i = 2*n; i< 3*n; i++)

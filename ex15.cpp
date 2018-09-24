@@ -2,12 +2,6 @@
 // в записи которых нет двух одинаковых цифр (указание: использовать полный перебор).
 #include <iostream>
 #include <cstdlib>
-#include <string>
-#include <cmath>
-#include <fstream>
-#include <cstring>
-
-#define _USE_MATH_DEFINES
 
 using namespace std;
 

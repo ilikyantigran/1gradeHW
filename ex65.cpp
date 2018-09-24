@@ -2,12 +2,6 @@
 //Если таких чисел несколько, то одно из них.
 #include <iostream>
 #include <cstdlib>
-#include <string>
-#include <cmath>
-#include <fstream>
-#include <cstring>
-
-#define _USE_MATH_DEFINES
 
 using namespace std;
 
@@ -20,10 +14,12 @@ int main()
   previous = array[0];
   int sum = 1;
   int max = 1;
+
   for (int j =0; j<n;j++)
   {
     cin >> array[j];
   }
+
   for (int i = 0; i<n; i++)
   {
       if(array[i]==previous)
@@ -35,6 +31,7 @@ int main()
       else sum = 1;
       previous = array[i];
   }
+  
   cout << max << endl;
   return 0;
 }

@@ -1,11 +1,8 @@
 #include <iostream>
 #include <cstdlib>
-#include <string>
-#include <cmath>
-#include <fstream>
 
-#define _USE_MATH_DEFINES
 using namespace std;
+
 char sign(int x)
 {
 	if (x > 0)
@@ -16,6 +13,7 @@ char sign(int x)
 		return '0';
     return 0;
 }
+
 int main()
 {
 	int x;

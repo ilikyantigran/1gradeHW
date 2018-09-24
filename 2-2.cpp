@@ -5,7 +5,7 @@
 #define _USE_MATH_DEFINES
 
 using namespace std;
-    
+
 int main()
 {
     double x,a;

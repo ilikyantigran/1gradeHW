@@ -1,15 +1,13 @@
 #include <iostream>
 #include <cstdlib>
-#include <string>
 #include <cmath>
-#include <fstream>
-#include <cstring>
-#define _USE_MATH_DEFINES
+
 using namespace std;
+
+#define _USE_MATH_DEFINES
+
 int main()
 {
-	system("chcp 1251");
-	system("cls");
 	double Sys, l, sum, n;
 	sum = 0;
 	l = 0;
@@ -19,7 +17,7 @@ int main()
 	cout << "Введите число" << endl;
 	cin >> number;
 	l = number.length();
-	for (int i = 0; i <l; i++)
+	for (int i = 0; i <l; i++) //Перевод отдельных цифр в 10 систему
 	{
 		if (number[i] == '1')
 			n = 1;
@@ -54,4 +52,5 @@ int main()
 		sum += pow(Sys, l - 1 - i)*n;
 	}
 	cout << sum << endl;
+	return 0;
 }
