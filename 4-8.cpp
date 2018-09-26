@@ -38,5 +38,8 @@ int main()
   if(Com3 >= Com1 && Com3>=Com2)
     cout << "На комиссионных наварился третий" << endl;
 
+  cout << "Всего прибыли " <<  (Sell1+Sell2+Sell3) << endl;
+
+  cout << "Всего коммисионных " << (Com1+Com2+Com3) << endl;
   return 0;
 }
