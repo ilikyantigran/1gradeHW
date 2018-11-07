@@ -14,6 +14,7 @@ int rect(int a,int b) //Площадь прямоугольника
 double trian(int a, int b, int c) //Площадь треугольника
 {
 	p = (a + b + c) / 2;
+	
 	return sqrt(p*(p-a)*(p-b)*(p-c));
 }
 

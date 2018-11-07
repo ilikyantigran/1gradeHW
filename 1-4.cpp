@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	double a, b, c, D;
+
 	cin >> a >> b >> c;
 	if (a == 0)
 	{// Задание 3
@@ -16,7 +17,6 @@ int main()
 		}
 		else
 		{
-
 			if (c == 0)
 			{
 				cout << "x = любому числу" << endl;
@@ -45,5 +45,6 @@ int main()
 			}
 		}
 	}
+	
 	return 0;
 }

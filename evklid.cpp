@@ -7,6 +7,7 @@ int main ()
 {
   int a,b,del,x;
   x = 1;
+
   cin >> a;
   cin >> b;
 
@@ -26,6 +27,8 @@ int main ()
     if (a%i == 0 && b%i == 0)
       x = i;
   }
+
   cout << x << endl;
+  
   return 0;
 }

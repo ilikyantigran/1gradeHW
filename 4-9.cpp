@@ -12,11 +12,15 @@ int main()
 	sum = 0;
 	l = 0;
 	string number;
+
 	cout << "Введите систему счисления" << endl;
 	cin >> Sys;
+
 	cout << "Введите число" << endl;
 	cin >> number;
+
 	l = number.length();
+
 	for (int i = 0; i <l; i++) //Перевод отдельных цифр в 10 систему
 	{
 		if (number[i] == '1')
@@ -51,6 +55,8 @@ int main()
 			n = 15;
 		sum += pow(Sys, l - 1 - i)*n;
 	}
+	
 	cout << sum << endl;
+
 	return 0;
 }

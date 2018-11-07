@@ -9,7 +9,10 @@ using namespace std;
 int main()
 {
     double x,y,b;
+
     cin >> x >> y >> b;
+    
     cout << (log(b-y) *sqrt(b-x)) << endl;
+
     return 0;
 }

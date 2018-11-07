@@ -9,6 +9,7 @@ int main()
   double array2[4][2] = {{1.2,0.5},{2.8,0.4},{5,1},{2,1.5}};
   double array3[3][2];
   int j, z;
+
   for (int i = 0;i <3; i++)
     for(j = 0; j<2; j++)
       array3[i][j] = array1[i][0]*array2[0][j] + array1[i][1]*array2[1][j] + array1[i][2]*array2[2][j] +array1[i][3]*array2[3][j];
@@ -41,5 +42,6 @@ int main()
   cout << "Всего прибыли " <<  (Sell1+Sell2+Sell3) << endl;
 
   cout << "Всего коммисионных " << (Com1+Com2+Com3) << endl;
+  
   return 0;
 }

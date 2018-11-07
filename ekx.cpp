@@ -13,11 +13,14 @@ int sum(int x) //Функция для нахождения суммы цифр
 int main ()
 {
   int n;
+
   cin >> n;
+
   for (int i =100; i<=999; i++)
   {
   if (sum(i) == n)
     cout<< i<< endl;
   }
+  
   return 0;
 }

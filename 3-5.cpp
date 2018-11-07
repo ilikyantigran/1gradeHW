@@ -11,13 +11,17 @@ using namespace std;
 int main()
 {
 	char str1[] = "qwertyuioplkjhgfdsazxcvbnmlkjh";
+
 	cout << str1 << endl;
+
 	int i, j;
 	char a;
 	bool flag;
+
 	for (i = 0; i < 30; i++)
 	{
 		flag = true;
+		
 		for (j = 0; j < 30 - (i+1); j++)
 		{
 			if ((int)str1[j] > (int)str1[j+1])
@@ -27,9 +31,8 @@ int main()
 			}
 		}
 		if (flag)
-		{
 			break;
-		}
 	}
+
 	cout << str1 << endl;
 }
